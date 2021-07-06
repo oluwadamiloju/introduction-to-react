@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Input = () => {
+const Input = (props) => {
     return (
-        <div>
-            <p>Hello world</p>
+        <div className="signin">
+            <label htmlFor="fname">{props.label} </label><br />
+            <input type="text" id="fname" name="fname" placeholder={props.placeholder} />
+            {/* <label htmlFor="lname">Last name: </label>
+            <input type="text" id="lname" name="lname" /> */}
         </div>
     )
 }
