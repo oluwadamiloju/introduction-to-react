@@ -5,8 +5,6 @@ const Input = (props) => {
         <div className="signin">
             <label htmlFor="fname">{props.label} </label><br />
             <input type="text" id="fname" name="fname" placeholder={props.placeholder} />
-            {/* <label htmlFor="lname">Last name: </label>
-            <input type="text" id="lname" name="lname" /> */}
         </div>
     )
 }

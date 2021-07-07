@@ -2,8 +2,8 @@ import React from 'react'
 
 const Button = () => {
     return (
-        <div>
-            <button>LOGIN</button>
+        <div >
+            <button className="login-button">LOGIN</button>
         </div>
     )
 }
